@@ -13,6 +13,9 @@
         <!-- Place all CSS for fonts in this file -->
         <link href='../css/font.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <title>BlogList</title>
 </head>
@@ -35,7 +38,7 @@
             <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
 
         </div>
-           
+             
         <div class="postButtons"    >
 
         	<!-- Insert code for All Posts & Create Post button here -->
@@ -49,6 +52,8 @@
 
 
         </div>
+           
+       
     </div>
 
     <div id="myModal" class="modal">
@@ -110,6 +115,33 @@
         </div>
 
     </div>
+    <div >
+
+        <div id="postmyModal" class="modal" style="margin-top: -50px; padding: 80px;" >
+            <div class="modal-content">
+                <span class="pclose" style="margin-left: 1000px;">&times;</span>
+                <form>
+                    <h2 align="center" style="margin-top: 0px">Pen Your Post</h2>
+                    <p style="margin-bottom: 0px">
+                        Title
+                    </p>
+                    <input required="true" style="background: #f2eded; margin-left: 0px;width: 382px;margin-right: 5px" type="text" placeholder="Enter Title For the Blog">
+                    <p style="margin-bottom: 0px">
+                        Content
+                    </p>
+                    <textarea rows="10" cols="80" style="background-color: #f2eded;">
+
+                    </textarea>
+                    <p align="center" style="margin-bottom: 2px">
+                        <button style="background: limegreen;color: white;font-weight: bold;width: 382px;padding: 5px">Create</button>
+                    </p>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
     <div class="allpostcontainer">
         <div class="post">
             <div class="post-left">
